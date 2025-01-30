@@ -26,7 +26,7 @@ public class StringFeature extends Feature {
         if (uniqueStrings.contains(input)) {
             return input + " was found at index " + uniqueStrings.indexOf(input) + ".";
         }
-        return input + " was not in the Feature, the last string in this feature is '" + uniqueStrings.get(uniqueStringCount-1) + "' at index " + (uniqueStringCount-1) + ".";
+        return input + " was not in the Feature, the last string found in this feature is '" + uniqueStrings.get(uniqueStringCount-1) + "' at index " + (uniqueStringCount-1) + ".";
     }
 
     public ArrayList<String> getUniqueStrings() {
